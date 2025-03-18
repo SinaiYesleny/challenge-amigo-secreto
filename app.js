@@ -7,8 +7,9 @@ let amigos = [];
 function agregarAmigo(){
     let amigo = document.getElementById("amigo").value
     console.log(amigo) //compruebo que se ingrese el amigo
-    
-    if(amigo === "") {
+
+  //la condición será que no se pueda ingresar un amigo vacio
+    if(amigo === null) {
         alert("Por favor, ingresa un amigo");
     } else {
         amigos.push(amigo);
