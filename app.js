@@ -14,11 +14,11 @@ function agregarAmigo(){
     } else {
         amigos.push(amigo);
         console.log(amigos) //compruebo que se ingrese el amigo al array amigos
-    }
-    document.getElementById("amigo").value = ""; //limpio el input
+        document.getElementById("amigo").value = ""; //limpio el input
+        }
+
     actualizarListaAmigos();
 }
-document.querySelector(".button-add").addEventListener("click", agregarAmigo)
 
 //Implementa una función para actualizar la lista de amigos
 function actualizarListaAmigos() {
