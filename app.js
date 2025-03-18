@@ -10,7 +10,6 @@ function agregarAmigo(){
     
     if(amigo === "") {
         alert("Por favor, ingresa un amigo");
-        return;
     } else {
         amigos.push(amigo);
         console.log(amigos) //compruebo que se ingrese el amigo al array amigos
