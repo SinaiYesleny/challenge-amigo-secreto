@@ -15,9 +15,8 @@ function agregarAmigo(){
         amigos.push(amigo);
         console.log(amigos) //compruebo que se ingrese el amigo al array amigos
         document.getElementById("amigo").value = ""; //limpio el input
+        actualizarListaAmigos();
         }
-
-    actualizarListaAmigos();
 }
 
 //Implementa una función para actualizar la lista de amigos
@@ -33,11 +32,10 @@ function actualizarListaAmigos() {
     console.log(listaAmigos);
 
 }
-document.querySelector(".button-add").addEventListener("click", actualizarListaAmigos)
 
 //Implementa una función para sortear los amigos
 function sortearAmigo() {
-    if(amigos == []) {
+    if(amigos === 0) {
         alert("No hay amigos para sortear");}
     else {
         let amigoSecreto = amigos[Math.floor(Math.random() * amigos.length)];
