@@ -10,7 +10,7 @@ Este proyecto está diseñado para para mostrar mis conocimientos en JavaScript 
 - JavaScript
 
 ## Instrucciones para ejecutar
-- Puedes visitar mi proyecto en el siguiente enlace: [Challenge Amigo Secreto]() 
+- Puedes visitar mi proyecto en el siguiente enlace: [Challenge Amigo Secreto](https://sinaiyesleny.github.io/challenge-amigo-secreto/) 
 
 ## Información del autor
 Creado por [@SinaiYesleny](https://github.com/SinaiYesleny).  Si te gustó el proyecto, ¡No dudes en contactarme! :)
